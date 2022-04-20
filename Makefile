@@ -1,5 +1,5 @@
 install:
-	~/sweetExecOfDeath/nasm/nasm -f elf64 -o main.o main.asm
+	~/gitAsC2/nasm/nasm -f elf64 -o main.o main.asm
 	ld -o main main.o
 clean:
 	rm main
