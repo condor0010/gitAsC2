@@ -11,7 +11,6 @@ section .text
   lea rsi, [rel 🤗] ; loads in rest of commands to be run in the shell defined above
   xor edx, edx ; 0 out edx by xoring it with itself
   syscall ; run the syscall constructed above
-
 ; data stored below, unless its over 50lbs, if its over 50 it cant be a caryon
 🍆  db 'No Mr. Bond,'
 🤗  dq 🤮, 😀, 😃, 😄,0 ; command to be run, this is one gnarly one liner
